@@ -1,5 +1,6 @@
 .navigation-bar {
-    background-color: aqua;
+    background-color: #1e1e2e;
+    color: #cdd6f4;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -14,6 +15,18 @@
 .dropdown {
     position: relative;
     display: inline-block;
+}
+.dropdown > input {
+    width: 15vw;
+}
+.dropdown-button {
+    background-color: #1e1e2e;
+    color: #cdd6f4;
+    border: none;
+    cursor: pointer;
+}
+.dropdown-button > h2 {
+    font-weight: 300;
 }
 .dropdown-content {
     display: none;

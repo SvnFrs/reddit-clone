@@ -1,0 +1,51 @@
+.navigation-bar {
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo > a {
+    vertical-align: super;
+}
+.logo > img {
+    width: 2rem;
+    height: 2rem;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+}
+.dropdown-content a {
+    display: block;
+    text-decoration: none;
+}
+.dropdown-sort {
+    display: none;
+    position: absolute;
+}
+.dropdown-sort a {
+    display: block;
+    text-decoration: none;
+}
+.dropdown-mode {
+    display: none;
+    position: absolute;
+}
+.dropdown-mode a {
+    display: block;
+    text-decoration: none;
+}
+.search input {
+    width: 40vw;
+}
+
+
+
+.show {display:block;}
+.sort {
+    display: flex;
+}

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reddit</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navigation-bar">
+        <div class="logo">
+            <img src="https://cdn-icons-png.flaticon.com/512/3670/3670226.png" alt="">
+            <a>Reddit</a>
+        </div>
+        <div class="dropdown">
+            <button onclick="dropdownEnableNav()">Home</button>
+            <div class="dropdown-content" id="dropdown-content">
+                <a>Unixp*rn</a>
+                <a>People Fucking Dying</a>
+                <a>Guro</a>
+                <a>Usability Porn</a>
+            </div>
+        </div>
+        <span class="search">
+            <input type="text" placeholder="Search">
+        </span>
+        <div class="popular">
+            <a>Popular</a>
+        </div>
+        <div class="chat">
+            <a>Chat</a>
+        </div>
+        <div class="notification">
+            <a>Notification</a>
+        </div>
+        <div class="post">
+            <a>Post</a>
+        </div>
+        <div class="advertise">
+            <a>Advertise</a>
+        </div>
+        <div class="profile">
+            <a>IgnoredBoys</a>
+        </div>
+    </nav>
+    <section class="post-section">
+        <div class="post">
+            <img src="" alt="">
+            <div class="create-post">
+                <a>Create post</a>
+                <input type="text" name="" id="">
+                <a>Create media post</a>
+            </div>
+        </div>
+    </section>
+    <section class="sort-section">
+        <div class="sort">
+            <div class="best">
+                <a href="">Best</a>
+            </div>
+            <div class="hot">
+                <a href="">Hot</a>
+            </div>
+            <div class="new">
+                <a href="">New</a>
+            </div>
+            <div class="top">
+                <a href="">Top</a>
+            </div>
+            <div class="more">
+                <button onclick="dropdownEnableSort()" href="">...</button>
+                <div class="dropdown-sort" id="dropdown-sort">
+                    <a>Rising</a>
+                </div>
+            </div>
+            <div class="mode">
+                <button onclick="dropdownEnableMode()">Card</button>
+                <div class="dropdown-mode" id="dropdown-mode">
+                    <a>Card</a>
+                    <a>Classic</a>
+                    <a>Compact</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <script src="js/script.js"></script>
+</body>
+</html>
